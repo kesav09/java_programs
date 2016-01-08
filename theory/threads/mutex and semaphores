@@ -1,0 +1,10 @@
+Mutex: exclusive-member access to a resource
+
+Semaphore: n-member access to a resource
+
+That is, a mutex can be used to syncronize access to a counter, file, database, etc.
+
+A sempahore can do the same thing but supports a fixed number of simultaneous callers. 
+For example, I can wrap my database calls in a semaphore(3) so that my multithreaded app will hit the
+ database with at most 3 simultaneous connections. All attempts will block until one of the three slots 
+ opens up. They make things like doing naive throttling really, really easy.

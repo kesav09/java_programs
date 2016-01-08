@@ -1,0 +1,11 @@
+link: http://javahungry.blogspot.com/2014/02/hashmap-vs-concurrenthashmap-java-collections-interview-question.html
+- hashmap is not synchronized, concurrent hashmap is.
+- to synchronize hashmap we can do Map<K,V> map = Collections.synchronizedMap(hashmap); 
+	- this is similar to hashtable
+	- lock is applied on the whole map object when making changes to the map.
+	
+	To create concurrentHashMap, ConcurrentHashMap<K,V> map = new ConcurrentHashMap<K,V>();
+		- concurrentHashMap uses synchronized block, so only some parts of the code are synchronized for better performance. 
+			sync. hashmap would put lock on the whole map object.  
+
+   

@@ -1,0 +1,1 @@
+http://java.dzone.com/articles/j2ee-compare-restful-vs-soap

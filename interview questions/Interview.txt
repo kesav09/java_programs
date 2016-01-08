@@ -1,0 +1,137 @@
+-1. print tree level order - bfs - DONE
+-2. maximum subarray - maxSumStart,maxSumEnd
+-3. 2 string isomorphic - DONE
+-4. sqrt - DONE
+-5. 2 sorted array, merge into one sorted array
+-6. max consecutive sum of array
+-7. array related and modified binary search
+-8. singleton pattern
+-9. Implement a stack with one additional constraint - should be able to pop the middle element of the stack with O(1) complexity . 
+-10. check if a string is a number. 
+-11. a sorted array that has been rotated, find a number in that array {6,7,1,2,3,4,5}
+-12. Given an input string and a target string, find the minimum substring of the input string that contains all of the characters in the target string
+-13. Covert the given Hindu arabic numeral to Roman numeral.
+-14. least common ancestor
+-15. make space evenly distributed between adjacent words
+-16. permutation of a string and time complexity
+-17. Find a triangle in a list of random numbers (a triangle is three numbers such that no one number is larger than the other two numbers added up) 
+-18.  Write an algorithm that determines whether or not two binary trees are equivalent
+-19. find common ancestor of two nodes in a binary tree
+-20. find coverage of a bunch of intervals.... like given [1,4),[-2,3),[9,10) return 7
+-21. given an array of integers A[1..n], make a new array B[1..n] where B[i] is the product of everythimg in A excluding A[i]. O(n) solution without division
+-22. Binary tree serialization  
+-23. Find whether a given binary tree is image of the other one
+-24. Reverse double linked list
+-25. Examine the inbox feature of LinkedIn, read over the given spec, and design a test suite for it.  
+-26. Write a program that takes an integer and prints out all ways to multiply smaller integers that equal the original number, without repeating sets of factors. In other words, if your output contains 4 * 3, you should not print out 3 * 4 again as that would be a repeating set
+-27. find number in rotated sorted array, like: find 3 in "4,5,1,2,3".
+-28. Write a function that would find the largest palindrome -> important
+-29. Write a Binary Search Tree class with isBST() method that will validate if the tree is a BST -> important
+-30. create a Stack with two caveats: there is a "getMiddle" method that returns the middle element of the stack and it must be of O(1) access time
+-31. Power of a number. Wrote a logn algorithm directly
+-32. Permutations of an array of numbers. Wrote a recursive algorithm
+-33. What is a singleton class and how would you design it. Some threading related things for it
+-34.  Write a parseInt function
+-35. Design web calendar
+-36. the deepest common ancestor of two nodes of a tree
+-37. Implement double pow(double a, int b) without using any already built-in 
+-38. implement double pow(double a, int b) without using any already built-in functions (aka, don't use an already defined pow function).   View Answers (5)
+-
+-39. Given two (dictionary) words as Strings, determine if they are isomorphic. Two words are called isomorphic if the letters in one word can be remapped to get the second word. Remapping a letter means replacing all occurrences of it with another letter while the ordering of the letters remains unchanged. No two letters may map to the same letter, but a letter may map to itself.
+-
+-Example:
+-Given "foo", "app"; returns true
+-   we can map 'f' -> 'a' and 'o' -> 'p'
+-Given "bar", "foo"; returns false
+-   we can't map both 'a' and 'r' to 'o'
+-
+-Given "turtle", "tletur"; returns true
+-   we can map 't' -> 't', 'u' -> 'l', 'r' -> 'e', 'l' -> 'u', 'e' -'r'
+-
+-Given "ab", "ca"; returns true
+-   we can map 'a' -> 'c', 'b'
+-
+-
+-40. Given set of characters and a string, find smallest substring which contains all characters
+-41. Reverse words in a string
+-42. Implement decimal to roman and vice versa
+-43. Check if a String contains a number or not
+-44. return n closest points on a plane
+-45. serialize and deserialize a binary tree
+-46. find the largest subsequence of the given array that yields the largest PRODUCT
+-47. Maximum product subset with negative and positive integers 
+-48. Find distance between words in a string
+-  eg: String => "I am a good girl" distance between "I" and "good" is 3
+-49. WAP to build a BST
+-50. WAP to implement function public String replace (String originalString, String pattern, String replacement)
+-51. Parse the IP in a file
+-52. Write a function to realise a's power of b
+-53. Find the nearest K point given a set of N point.
+-54.  Given a dictionary find and set of two words find path from one word to another such that all the intermediate words are also from dictionary.
+- Example: GOD -> GID -> DID -> DIG -> DOG.
+-At each time we are allowed only one character change.
+-
+-
+-55. Design an Hangman. { They expect MVC architecture.}
+-56. Find all the possible factors of a given number
+-57. 
+-	1st round Phone Screen: The lady was sweet and asked what position I was interested in and the general HR questions like what am I looking for in an internship.
+-
+-	2nd round Phone Technical:
+-	Given a sorted array with duplicates and a number, find the range in the
+-	form of (startIndex, endIndex) of that number. For example,
+-
+-	find_range({0 2 3 3 3 10 10}, 3) should return (2,4).
+-	find_range({0 2 3 3 3 10 10}, 6) should return (-1,-1).
+-	The array and the number of duplicates can be large.
+-	
+-58. 	**
+-	 * Given two (dictionary) words as Strings, determine if they are isomorphic. Two words are called isomorphic
+-	 * if the letters in one word can be remapped to get the second word. Remapping a letter means replacing all
+-	 * occurrences of it with another letter while the ordering of the letters remains unchanged. No two letters
+-	 * may map to the same letter, but a letter may map to itself.
+-	 *
+-	 * Example:
+-	 * given "foo", "app"; returns true
+-	 * we can map 'f' -> 'a' and 'o' -> 'p'
+-	 *
+-	 * given "bar", "foo"; returns false
+-	 * we can't map both 'a' and 'r' to 'o'
+-	 *
+-	 * given "turtle", "tletur"; returns true
+-	 * we can map 't' -> 't', 'u' -> 'l', 'r' -> 'e', 'l' -> 'u', 'e' ->'r'
+-	 *
+-	 * given "ab", "ca"; returns true
+-	 * we can map 'a' -> 'c', 'b' -> 'a'
+-	 */
+-
+-59. searching in a matrix sorted row wise
+-60. exponent of a number
+-61. Consider an X x Y array of 1's and 0s. The X axis represents "influences" meaning that X influences Y. So, for example, if $array[3,7] is 1 that means that 3 influences 7.
+-
+-An "influencer" is someone who influences every other person, but is not influenced by any other member.
+-
+-Given such an array, write a function to determine whether or not an "influencer" exists in the array.
+-
+-62. How to validate is a binary search tree is legit
+-63. 
+-
+-
+-public static void reverse(String text) {
+-
+-	if (text == null || text.length() < 1)  throw new IllegalArgumentException("text cannot be empty or null");
+-	int i = 0;
+-	int j = 0;
+-	
+-	while(i <= j) {
+-		swap(text, i, j);
+-		i++;
+-		j--;
+-		
+-	}
+-	public static void swap(String text, int i, int j) {
+-		char start = text.charAt(i);
+-		text.charAt(i) = text.charAt(j);
+-		text.charAt(j) = start;
+-	}
+-}

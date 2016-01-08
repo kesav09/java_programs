@@ -1,0 +1,1 @@
+double checkd locking: link: http://en.wikipedia.org/wiki/Double-checked_locking#Usage_in_Java

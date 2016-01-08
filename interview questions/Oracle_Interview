@@ -1,0 +1,57 @@
+-Phone interview
+-1. Life cycle of a thread
+-2. Difference between externalization and serialization
+-3. Replace all the string in unix by a command
+-/%s/original_string/replace_string
+-4. Difference between beforetest and beforemethod - TestNg
+-5. Binary search
+-6. abstract and interface.
+-
+-
+-Onsite
+-1. Given a tournament, find top 5 teams and top 5 players who scored maximum.Design and Code.
+-2. Reverse a string recursively
+-3. TestNg annotation by giving use case - beforesuite and beforeclass
+-4. Lots of SQL queries, join, outer join, full join, aggregate functions - Given the laptop and exceute bunch of queries
+-5. Given laptop - build a simple restaurant billing system(price + tip) and execute on vi - scanner 
+-6. Some test related questions
+-7. isSubstring
+-8. annotations, alwaysTrue, dependsOnMethods, dependsOnGroup  
+-
+-
+-table - primary key
+-primary key modify karna hain. 
+-table ko modify karna hain aur column - primary key. contraint.
+-
+-
+-- employee and salary table
+-group by - MAIN
+-constraint
+-aggregate functions - count, sum, min, max, minus
+-foreign key, how to add
+-distinct - duplicate entries. 
+-NOT IN 
+-difference in outer and inner join.
+-check what is full/outer join. is that the same? 
+-- count(*) inner join and group by.
+-
+-
+-onsite:
+-1. design a movie ticketing system
+-2. print permutations for ("ab",3) a,b,_,_,_
+-	permutations will be ababb,abaab,abaaa,etc
+-3. for a given array of integers given count of each. {2,3,4,5,2,3,4} - [2-2],[3-2],[4-2]
+-4. life cycle of a thread, thread implementation and print count from 1-50 in alternate threads. thread1 - 1,thread2 - 2, thread3 - 3, thread4 - 4,etc
+-5. simple sql based questions - where,groupby,aggregate functions,etc (mostly similar to w3schools)
+-6. before/after(suite,test,class,methods,groups)
+-7. how to do declare groups and groups of groups in testng.xml.
+-8. dependsOnMethods,dependsOnGroups
+-9. how memory is organized in java. what goes in heap and stack memory. what does garbage collector do. how to make garbage collector scrape objects.
+-10. asked a join query for give two tables and then asked me to solve it without using join keyword.
+-11. finally,final and finalize, why java doesn't support multiple inheritance, how java solves the problem of multiple inheritance.
+-12. how to make connection to a database. what are the important things we do before we connect to a database from java code. 
+-
+-sql tables: employee (employee id, name, department id) and department table (deparmtent id and dept. name)
+-had to find name of employees who are in 2 departments, whose salary is higher than average, etc
+-
+-

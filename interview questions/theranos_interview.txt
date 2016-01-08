@@ -1,0 +1,8 @@
+- What is interface and why do we need it
+- Implemented multiple inheritance using Interfaces
+- Vector vs ArrayList
+- What is synchronized and how JVM will synchronize thing
+- How/When GC happens and what are different stages
+- What is finalize and when it will be invoked
+- Say if server is behaving slow how do you approach debugging the server (looking on how you will analyze memory leaks)
+- Write a function to compress a given string. For example, a string ‘aaabbbbbaaaacdde’ will be compressed into ‘a3b5a4cd2e’. if compressed string is not shorter than the original string, return the original string.

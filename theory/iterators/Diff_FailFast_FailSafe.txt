@@ -1,0 +1,6 @@
+Fail Fast
+- throws concurrentModificationException when list is being modified.
+
+Fail Safe
+- doesn't throw an exception when list is modified when being iterated.
+- copies data to a new data structure so that iteration could be performed on the copied data structure.

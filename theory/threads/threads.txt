@@ -1,0 +1,14 @@
+threads: http://javarevisited.blogspot.com/2011/02/how-to-implement-thread-in-java.html
+synchronization: http://javarevisited.blogspot.com/2011/04/synchronization-in-java-synchronized.html
+volatile and atomic: http://stackoverflow.com/questions/9749746/what-is-the-difference-of-atomic-volatile-synchronize
+wait,notify - http://www.programcreek.com/2009/02/notify-and-wait-example/
+
+life cycle of a thread - 
+http://www.journaldev.com/1044/life-cycle-of-thread-understanding-thread-states-in-java
+http://www.hubberspot.com/2012/08/how-life-cycle-of-thread-in-works-in.html
+
+difference between thread class and runnable interface - http://javarevisited.blogspot.sg/2012/01/difference-thread-vs-runnable-interface.html
+wait, sleep, yeild - http://javarevisited.blogspot.sg/2011/12/difference-between-wait-sleep-yield.html
+
+Callable Interface is used to return a value from call method. Callable is available in Executor Service. 
+Future is used to get the returned value from call method.	   

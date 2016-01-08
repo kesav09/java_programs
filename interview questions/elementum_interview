@@ -1,0 +1,20 @@
+telephonic: 
+- parenthesis problem
+	Ask to write test cases
+- reverse words keeping the order sequence: input: "the sky is blue" ouput:"eht yks si eulb" 
+- given html page ask to write css locator/xpath
+
+onsite:
+- org. chart map is given. get subordinates for given employee
+- binary search in an unlimited array.  
+	http://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/
+- get, put, post examples
+	http://restcookbook.com/HTTP%20Methods/put-vs-post/
+	Use PUT when you can update a resource completely through a specific resource. For instance, if you know that an article resides at http://example.org/article/1234, 
+	you can PUT a new resource representation of this article directly through a PUT on this URL.
+- test framework based questions
+- how to compare two large jsons
+	- how to ignore some fields from those jsons while comparison.
+	- overriding equals jackson's treemodel api: http://stackoverflow.com/a/2255893, http://stackoverflow.com/a/3217065
+
+	

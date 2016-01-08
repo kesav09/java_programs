@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNgSuite" verbose="1">
+	<test name="test1">
+
+		<parameter name = "param1" value = "value1"/>
+		<groups>
+			<define name="functional">
+				<include name="testMe1" />
+			</define>
+
+			<define name="sanity">
+				<include name="testMe2" />
+				<include name="testMe3" />
+			</define>
+			<run>
+				<include name="functional"></include>
+				<include name="sanity"></include>
+				<include name="regression"></include>
+				<exclude name="not_ready"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="testng.TestReverse"></class>
+		</classes>
+	</test>
+	<test name="test2">
+		<parameter name = "param2" value = "value2"/>
+		<groups>
+			<run>
+				<include name="testMe"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name = "testng.TestBeforeAfter"></class>
+		</classes>
+	</test>
+	<!-- <test name="test3"></test> -->
+
+
+
+
+	<!-- Listeners implement the interface org.testng.ITestListener and are 
+		notified in real time of when a test starts, passes, fails, etc... -->
+	<!-- Reporters implement the interface org.testng.IReporter and are notified 
+		when all the suites have been run by TestNG. The IReporter instance receives 
+		a list of objects that describe the entire test run. -->
+	<!-- <listeners></listeners> -->
+</suite>

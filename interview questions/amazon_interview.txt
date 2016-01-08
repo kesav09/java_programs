@@ -1,0 +1,17 @@
+Telephonic : 9/10/15
+1. what is singleton pattern and when to use it
+2. Given sorted and rotated array, find the value where it is rotated
+3. Given UI where has option to provide source file path and destination file path to upload
+   provide test cases for it
+4. How do you debug when client is not getting any response from server	
+	consider cases where Server is black box for you
+	if the issue is only happened for you
+	   
+Telephonic : 9/11/15
+1. What is abstract class
+2. What is interface
+3. Given array find pair of number who sum is the given number
+4. Given binary tree, find sum from root to leaf node is the given number
+5. Design Method and test cases for below problem
+	Say, develop hotel booking method such that user can book min N number of days.
+   

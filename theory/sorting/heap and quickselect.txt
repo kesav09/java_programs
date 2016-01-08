@@ -1,0 +1,17 @@
+1.Using quick select algorithm (O(n) time complexity and O(1) space)
+
+2.Using min heap data structure (O(NlogK) time complexity and O(K) space)
+
+
+Quick select than sorting or heap
+As sorting the whole dataset is quite slow, it makes sense to select the top K items and sort only that few ‘top’ elements giving the impression to the user as the whole dataset was sorted as she pages through the result set. This will give a running time of O(k*log(k) + n) as opposed to O(n*log(n)) which is much faster if K is reasonably small (few hundreds for example).
+An other approach would be to work with a heap and keep popping the smallest number while putting back a larger as we are receiving the N numbers as a stream. This would work with O(n*log(K)) running time as the heap holds K elements so the height is log(K) while we test N numbers in total, although it’s expected running time is larger than the quick select and sort combination.
+reference: http://blog.teamleadnet.com/2012/07/quick-select-algorithm-find-kth-element.html
+
+
+http://blog.mischel.com/2011/10/25/when-theory-meets-practice/
+On a similar note, HeapSelect works if you don’t know the total number of items to be examined, or if you can’t hold the entire list of items in memory. Say, for example, you want the top 200 items from a file of a several billion records–more records than will fit in memory. HeapSelect shines in this situation because it can start at the beginning and go through the file sequentially. When it reaches the end of the file, the heap will contain the top 200 records. Another example is selecting the top n things that you see over time, for example records coming in over a network stream. With HeapSelect, you don’t need to keep track of every item–just the top k that you’ve seen so far.
+
+
+top k algorithms:
+http://www.quora.com/What-is-the-most-efficient-algorithm-to-find-the-kth-smallest-element-in-an-array-having-n-elements

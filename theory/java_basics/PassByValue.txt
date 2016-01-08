@@ -1,0 +1,33 @@
+reference: http://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value
+
+Java is always pass-by-value. The difficult thing to understand is that Java passes objects as references and those references are passed by value.
+
+It goes like this:
+
+public static void main( String[] args ){
+    Dog aDog = new Dog("Max");
+    foo(aDog);
+    if( aDog.getName().equals("Max") ){ //true
+        System.out.println( "Java passes by value." );
+    }else if( aDog.getName().equals("Fifi") ){
+        System.out.println( "Java passes by reference." );
+    }
+}
+
+public static void foo(Dog d) {
+    d.getName().equals("Max"); // true
+    d = new Dog("Fifi");
+    d.getName().equals("Fifi"); // true
+}
+In this example aDog.getName() will still return "Max". The value aDog within main is not overwritten in the function foo with the Dog "Fifi" as the object reference is passed by value. If it were passed by reference, then the aDog.getName() in main would return "Fifi" after the call to foo.
+
+Likewise:
+
+Dog aDog = new Dog("Max");
+foo(aDog);
+aDog.getName().equals("Fifi"); // true
+
+public void foo(Dog d) {
+    d.getName().equals("Max"); // true
+    d.setName("Fifi");
+}

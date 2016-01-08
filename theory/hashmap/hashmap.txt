@@ -1,0 +1,37 @@
+how hashmap works: http://javarevisited.blogspot.com/2011/02/how-hashmap-works-in-java.html
+
+- immutable, final object with proper equals() and hashcode() implementation would act as perfect Java HashMap  keys and improve performance of Java HashMap  by reducing collision. 
+Immutability also allows caching there hashcode of different keys which makes overall retrieval process very fast and suggest that String and various wrapper 
+classes e.g. Integer very good keys in Java HashMap.
+
+
+Concept of hashing
+Collision resolution in HashMap
+Use of equals () and hashCode () and there importance in HashMap?
+Benefit of immutable object?
+Race condition on HashMap  in Java
+Resizing of Java HashMap
+
+
+
+- java object hashcode default implmentation (o.hascode()): the hashCode method defined by class Object does return distinct integers for distinct objects. This is typically implemented by 
+converting the internal address of the object into an integer.
+
+
+- How null key is handled in HashMap?
+Null keys always map to index 0. Null key is handled specially in HashMap, there are two separate method for that putForNullKey(V value) and getForNullKey(). 
+private V getForNullKey() {
+        if (size == 0) {
+            return null;
+        }
+        for (Entry<K,V> e = table[0]; e != null; e = e.next) {
+            if (e.key == null)
+                return e.value;
+        }
+        return null;
+    }
+
+    
+java 8  hashmap optimization: 
+- default size of the entry array is less than 16. it will increase as we use.
+- Since a poor hash function will always return the same bucket resulting into a hashmap linked list. get() is O(n). java 8 implements tree instead of linked list making get()-O(logn).

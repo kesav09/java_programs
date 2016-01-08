@@ -1,0 +1,34 @@
+-telephonic
+-sort a list of strings like in a dictionary. 
+-- how to retrieve values from a hashmap in o(1).
+-- asked more on resume to give an overview about the work done. 
+-- map/reduce. struts and wicket.
+-
+-telephonic
+-- 10k numbers duplicates,random
+-1,3,5 look for them and give a count of each. 
+-- how to find for error/any string in a log file
+-- 1,1000 find the missing number (summation and binary search)
+-- file full of string, integers find a max and min count of each. 
+-keep a pojo have min and max values and string should be the key. 
+--authorization and authentication
+-
+-onsite:
+-1. a has 2 records, b has 3 records.
+-select * from a,b. how many records will it return. answer:6 (2*3)
+-2. give out the highest prime number
+-3. merge two sorted linked list.
+-4. difference between hashmap and hashtable
+-5. different ways to implement thread. 
+-6. deadlock example
+-7. from a file which has info about host and list of VMs associated with it. Parse this file and return 
+-a map of host and list of VMs associated with them.
+-8. find replace problem. 
+-9. what are the different types of testing performed on a product. 
+-10. IsBST problem. better to know the recursive and the iterative method. 
+-11. H20 problem: every thread is expected to print either 'H' or 'O'. With hundreds of threads running, we need to make sure
+-that 2 'H's are printed and 1 'O' is printed. output should be like: HH0 | 0HH | HoH
+-12. super keyword and uses of super keyword.
+-13. decorator pattern example
+-14. builder pattern example
+-15. singleton pattern example.

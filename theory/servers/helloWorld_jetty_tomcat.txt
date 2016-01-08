@@ -1,0 +1,2 @@
+http://wiki.eclipse.org/Jetty/Tutorial/Embedding_Jetty
+http://helloworldprograms.blogspot.com/2010/08/servlet-hello-world.html

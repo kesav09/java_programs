@@ -1,0 +1,13 @@
+-telephonic:
+-- rotate an array. input: a,b,c,d,e ; rotate by: 2 ;  output: c,d,e,a,b
+-- IsAnagram.
+-- REST based questions.
+-
+-
+-onsite:
+-- phone number problem. given numbers 234 - print combinations: adg,adh,adi,aeg,aeh,aei,etc
+-- isAnagram. to solve it using single hashtable. iterate over one string and get the char to number of  times they appear count. then iterate over the other string and 
+-reduce the count for each character that appears there. after both the iterations are over, check if values for all the characters in the map are 0.
+-- 3 hat problem. three people are standing one after the other wearing a hat. total hats are 5 (3-red and 2 - green). last two people couldn't answer which hat they are wearing. 
+-but first can. we need to find out which hat first guy is wearing.
+-- merge two sorted arrays in place. a[],b[],int n,int m. merge n elements from a[] and m elements from b[] into a[];

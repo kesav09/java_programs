@@ -1,0 +1,33 @@
+videos: https://class.coursera.org/ml-005/lecture
+machine learning definition: 
+	- gives computers ability to learn without being explicitly programmed.
+	- computer program is said to learn from experience E with respect to some task T and performance measure P, if its performance on T, as measured by P, improves with experience E.
+
+machine learning algorithms
+	- SUPERVISED learning (mostly used)
+	- UNSUPERVISED learning (mostly used)
+	- reinforcement learning
+	- recommender systems
+	- example: housing prices (sq.ft. vs price) predict the price for house for a specific sq. ft. with data given.
+ 
+supervised learning:
+	- giving right answers to predict.
+	- REGRESSION problem - uses a range of values. predict the real valued output.
+		-- example: housing prices (sq.ft. vs price) predict the price for house for a specific sq. ft. with data given.
+	- CLASSIFICATION problem - Discrete valued output (0 or 1). Fixed set of output values.
+		-- example: email spam or not spam problem 
+	- we use a set of different features as an input to the model.
+	
+unsupervised learning a.k.a clustering algorithm.
+	- huge unstructured dataset is given, we need to structure that data by forming clusters.
+		-- example: organize computing clusters, social network analysis, market segmentation, astronomical data analysis.
+		-- example: - given a set of web nes articles, group them into set of articles of the same story.
+					- given a database of customer data 
+	
+linear regression:
+		training data
+			|
+		learning algorithm
+			|
+features -> model (hypothesis) -> value
+	 

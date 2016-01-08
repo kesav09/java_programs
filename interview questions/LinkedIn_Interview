@@ -1,0 +1,8 @@
+-1. Find if strings are isomorphic or not and extend that code to N strings in O(n) time.
+-2. If some relevancy drops to 20% how would you debug?
+-
+-1.given a login page with username and password. user enters username and password and he is served with blank page. how will you debug what has gone wrong.
+-2. for the above case if client page remains the same. eg: on hitting submit nothing is happening. how will you debug
+-3. hardest bug 
+-4. what is memory leak? how is memory organized in java? give an example of memory leak. 
+-5. problem: modified binary search

@@ -1,0 +1,12 @@
+treemap: http://javahungry.blogspot.com/2014/06/how-treemap-works-ten-treemap-java-interview-questions.html
+- red black tree implementation
+- sorted by keys in ascending order.
+- keys would need to implement either comparable/comparator
+- natural ordering in case of comparable.
+- search,add,delete is a guaranteed O(n).
+
+red black tree basics:
+- every node is black/red
+- root node should be black in color.
+- red node can't have a red color neighbour node.
+- all paths from root to leaf consists of same number of black nodes. 
